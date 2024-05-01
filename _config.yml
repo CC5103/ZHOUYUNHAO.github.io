@@ -24,11 +24,11 @@ author:
   avatar: "profile.png"
   name: "ZHOU YUNHAO"
   pronouns: # example: "she/her"
-  bio: Cultivate excellence in all."
-  place: "GUIZHOU, China"
+  bio: "Cultivate excellence in all."
+  place: #"GUIZHOU, CHINA"
   location: "HIROSHIMA, JAPAN"
   employer: "HIROSHIMA University"
-  uri: ""
+  uri: #""
   email: "yunhaozhou@hiroshima-u.ac.jp"
 
   # Academic websites
