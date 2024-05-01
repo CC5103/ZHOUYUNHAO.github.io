@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale: "en-US"
-title: "ZHO's Homepage"
+title: "ZHOU's Homepage"
 title_separator: "-"
 name: &name "ZHOU YUNHAO"
 description: &description "personal description"
@@ -24,8 +24,8 @@ author:
   avatar: "profile.png"
   name: "ZHOU YUNHAO"
   pronouns: # example: "she/her"
-  bio: "Short biography for the left-hand sidebar"
-  placeofbirth: "China"
+  bio: Cultivate excellence in all."
+  place: "GUIZHOU, China"
   location: "HIROSHIMA, JAPAN"
   employer: "HIROSHIMA University"
   uri: ""
