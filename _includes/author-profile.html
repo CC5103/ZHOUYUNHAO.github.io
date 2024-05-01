@@ -15,7 +15,7 @@
   </div>
 
   <div class="author__content">
-    <h2 class="author__name">{{ author.name }}</h2>
+    <h1 class="author__name">{{ author.name }}</h1>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
   </div>
@@ -28,7 +28,7 @@
       <li><a href="https://www.google.co.jp/search?q=guizhou&sca_esv=dcc1d935a3011144&source=hp&ei=bnQyZsOHD5re1e8PtfeMyAY&iflsig=ANes7DEAAAAAZjKCftH35kdA9jPzmZc9_fLgpojwz5Ir&ved=0ahUKEwjD9tyI9uyFAxUab_UHHbU7A2kQ4dUDCA8&uact=5&oq=guizhou&gs_lp=Egdnd3Mtd2l6IgdndWl6aG91MgUQABiABDIFEAAYgAQyBRAAGIAEMgQQABgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeMgQQABgeSPMIUABY7gVwAHgAkAEAmAFXoAG2BKoBATe4AQPIAQD4AQGYAgegAsMEwgILEAAYgAQYsQMYgwHCAgYQABgDGATCAg0QABiABBixAxiDARgEwgIHEAAYgAQYBMICChAAGIAEGEMYigXCAgQQABgDwgIIEAAYgAQYsQPCAgkQABiABBgEGArCAggQABiABBiiBJgDAJIHATegB9IS&sclient=gws-wiz"><i class="fa-solid fa-globe icon-pad-right" aria-hidden="true"></i>{{ author.place }}</li>
       {% endif %}
       {% if author.location %}
-        <li><a href="https://www.google.co.jp/search?q=hiroshima+&sca_esv=dcc1d935a3011144&ei=cnQyZrDgCuaOvr0P_p2UkAE&ved=0ahUKEwiw4cyK9uyFAxVmh68BHf4OBRIQ4dUDCA8&uact=5&oq=hiroshima+&gs_lp=Egxnd3Mtd2l6LXNlcnAiCmhpcm9zaGltYSAyEhAAGIAEGLEDGIMBGAQYRhiAAjINEAAYgAQYsQMYgwEYBDINEAAYgAQYsQMYgwEYBDINEAAYgAQYsQMYgwEYBDIGEAAYAxgEMg0QABiABBixAxiDARgEMgcQABiABBgEMgcQABiABBgEMgcQABiABBgEMg0QABiABBixAxiDARgEMh4QABiABBixAxiDARgEGEYYgAIYlwUYjAUY3QTYAQFI7QtQAFjtCnAAeAGQAQCYAVSgAZAGqgECMTC4AQPIAQD4AQGYAgqgArsGwgIKEAAYgAQYQxiKBcICChAAGIAEGLEDGASYAwC6BgYIARABGBOSBwIxMKAHsTc&sclient=gws-wiz-serp"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
+        <li><a href="https://www.google.co.jp/search?q=hiroshima+&sca_esv=dcc1d935a3011144&ei=cnQyZrDgCuaOvr0P_p2UkAE&ved=0ahUKEwiw4cyK9uyFAxVmh68BHf4OBRIQ4dUDCA8&uact=5&oq=hiroshima+&gs_lp=Egxnd3Mtd2l6LXNlcnAiCmhpcm9zaGltYSAyEhAAGIAEGLEDGIMBGAQYRhiAAjINEAAYgAQYsQMYgwEYBDINEAAYgAQYsQMYgwEYBDINEAAYgAQYsQMYgwEYBDIGEAAYAxgEMg0QABiABBixAxiDARgEMgcQABiABBgEMgcQABiABBgEMgcQABiABBgEMg0QABiABBixAxiDARgEMh4QABiABBixAxiDARgEGEYYgAIYlwUYjAUY3QTYAQFI7QtQAFjtCnAAeAGQAQCYAVSgAZAGqgECMTC4AQPIAQD4AQGYAgqgArsGwgIKEAAYgAQYQxiKBcICChAAGIAEGLEDGASYAwC6BgYIARABGBOSBwIxMKAHsTc&sclient=gws-wiz-serp"><i class="icon-pad-right fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
         <li><a href="https://www.hiroshima-u.ac.jp/"><i class="fa fa-solid fa-building-columns icon-pad-right" aria-hidden="true"></i>{{ author.employer }}</li>
@@ -37,7 +37,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ "yunhaozhou*hiroshima-u.ac.jp" }}</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right icon-pad-right" aria-hidden="true"></i>{{ "yunhaozhou*hiroshima-u.ac.jp" }}</a></li>
       {% endif %}
 
       <!-- Font Awesome and Academicons icons / Academic websites -->
@@ -60,7 +60,7 @@
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
       {% endif %}
       {% if author.bsys_Lab %}
-        <li><a href="{{ author.bsys_Lab }}"><i class="fas fa-fw fa-link icon-pad-right" aria-hidden="true"></i>Bsys Lab</a></li>
+        <li><a href="{{ author.bsys_Lab }}"><i class="fas fa-fw fa-link icon-pad-right icon-pad-right" aria-hidden="true"></i>Bsys Lab</a></li>
       {% endif %}
 
       <!-- Font Awesome icons / Repositories and software development -->
@@ -74,7 +74,7 @@
         <li><a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble icon-pad-right" aria-hidden="true"></i>Dribbble</a></li>
       {% endif %}      
       {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right" aria-hidden="true"></i>Github</a></li>
+        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-fw fa-github icon-pad-right icon-pad-right" aria-hidden="true"></i>Github</a></li>
       {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
