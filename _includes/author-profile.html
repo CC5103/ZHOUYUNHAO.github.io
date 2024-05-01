@@ -24,6 +24,9 @@
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       <!-- Font Awesome icons / Biographic information  -->
+      {% if author.placeofbirth %}
+      <li class="placeofbirth"><i class="fa-solid fa-globe" aria-hidden="true"></i>{{ author.placeofbirth }}</li>
+      {% endif %}
       {% if author.location %}
         <li class="author__desktop"><i class="fa-solid fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
       {% endif %}
@@ -55,6 +58,9 @@
       {% endif %}                        
       {% if author.researchgate %}
         <li><a href="{{ author.researchgate }}"><i class="fab fa-fw fa-researchgate icon-pad-right" aria-hidden="true"></i>ResearchGate</a></li>
+      {% endif %}
+      {% if author.bsys_Lab %}
+        <li><a href="{{ author.bsys_Lab }}"><i class="fa-solid fa-house"></i>bsys Lab</a></li>
       {% endif %}
 
       <!-- Font Awesome icons / Repositories and software development -->
