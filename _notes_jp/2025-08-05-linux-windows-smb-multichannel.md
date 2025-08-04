@@ -157,7 +157,7 @@ smbclient -L localhost -U your_linux_username
 | **例2** | ポートごとに異なるサブネット設定、クライアントがどれか1つに直接接続 |
 | **例3** | ポートごとに異なるスイッチに接続、同一サブネット内          |
 
-![alt text](../images/Network_topology_diagram.png)
+![alt text](/images/Network_topology_diagram.png)
 
 ### Windows側の設定と課題
 
