@@ -10,7 +10,7 @@ tags:
   - 网络优化
 ---
 
-**Read this in other languages: [English](https://cc5103.github.io/ZHOUYUNHAO.github.io/_notes/2025/08/linux-windows-smb-multichannel/), [中文](https://cc5103.github.io/ZHOUYUNHAO.github.io/_notes_zh/2025/08/linux-windows-smb-multichannel/), [日本語](https://cc5103.github.io/ZHOUYUNHAO.github.io/_notes_jp/2025/08/linux-windows-smb-multichannel/).**
+**Read this in other languages: [English]({{ site.baseurl }}/_notes/2025/08/linux-windows-smb-multichannel/), [中文]({{ site.baseurl }}/_notes_zh/2025/08/linux-windows-smb-multichannel/), [日本語]({{ site.baseurl }}/_notes_jp/2025/08/linux-windows-smb-multichannel/).**
 
 # 前述
 
@@ -157,7 +157,7 @@ smbclient -L localhost -U your_linux_username
 | **EX.2** | 每个网口配置不同子网，客户端与其中一个端口直连 |
 | **EX.3** | 不同网口接入不同交换机，位于同一子网  |
 
-![alt text](/images/Network_topology_diagram.png)
+![网络拓扑图]({{ "/images/Network_topology_diagram.png" | relative_url }})
 
 ### Windows端配置与问题
 
