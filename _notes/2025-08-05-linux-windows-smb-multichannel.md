@@ -2,7 +2,7 @@
 
 title: 'SMB Multichannel Implementation Experience on Linux and Windows'
 date: 2025-08-04
-permalink: /_notes/2025/08/linux_windows_smb_multichannel/
+permalink: /_notes/2025/08/linux-windows-smb-multichannel/
 tags:
 
 * Linux
@@ -13,7 +13,7 @@ tags:
 
 ---
 
-**Read this in other languages: [English](https://cc5103.github.io/ZHOUYUNHAO.github.io///_notes/2025/08/linux_windows_smb_multichannel/), [中文](https://cc5103.github.io/ZHOUYUNHAO.github.io///_notes_zh/2025/08/linux_windows_smb_multichannel/), [日本語](https://cc5103.github.io/ZHOUYUNHAO.github.io///_notes_jp/2025/08/linux_windows_smb_multichannel/).**
+**Read this in other languages: [English](https://cc5103.github.io/ZHOUYUNHAO.github.io///_notes/2025/08/linux-windows-smb-multichannel/), [中文](https://cc5103.github.io/ZHOUYUNHAO.github.io///_notes_zh/2025/08/linux-windows-smb-multichannel/), [日本語](https://cc5103.github.io/ZHOUYUNHAO.github.io///_notes_jp/2025/08/linux-windows-smb-multichannel/).**
 
 # Introduction
 
