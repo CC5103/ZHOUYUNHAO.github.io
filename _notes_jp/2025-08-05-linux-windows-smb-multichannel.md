@@ -10,7 +10,7 @@ tags:
   - ネットワーク最適化
 ---
 
-**Read this in other languages: [English](https://cc5103.github.io/ZHOUYUNHAO.github.io/_notes/2025/08/linux-windows-smb-multichannel/), [中文](https://cc5103.github.io/ZHOUYUNHAO.github.io/_notes_zh/2025/08/linux-windows-smb-multichannel/), [日本語](https://cc5103.github.io/ZHOUYUNHAO.github.io/_notes_jp/2025/08/linux-windows-smb-multichannel/).**
+**Read this in other languages: [English]({{ site.baseurl }}/_notes/2025/08/linux-windows-smb-multichannel/), [中文]({{ site.baseurl }}/_notes_zh/2025/08/linux-windows-smb-multichannel/), [日本語]({{ site.baseurl }}/_notes_jp/2025/08/linux-windows-smb-multichannel/).**
 
 # はじめに
 
@@ -157,7 +157,7 @@ smbclient -L localhost -U your_linux_username
 | **例2** | ポートごとに異なるサブネット設定、クライアントがどれか1つに直接接続 |
 | **例3** | ポートごとに異なるスイッチに接続、同一サブネット内          |
 
-![alt text](/images/Network_topology_diagram.png)
+![alt text](Network_topology_diagram.png)
 
 ### Windows側の設定と課題
 
