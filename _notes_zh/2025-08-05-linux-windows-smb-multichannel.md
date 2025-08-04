@@ -157,7 +157,7 @@ smbclient -L localhost -U your_linux_username
 | **EX.2** | 每个网口配置不同子网，客户端与其中一个端口直连 |
 | **EX.3** | 不同网口接入不同交换机，位于同一子网  |
 
-![alt text](Network_topology_diagram.png)
+![Network Topology Diagram](/images/Network-topology-diagram.png)
 
 ### Windows端配置与问题
 
