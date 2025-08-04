@@ -1,0 +1,17 @@
+---
+layout: archive
+permalink: /notes_jp/
+title: "ノート (日本語)"
+author_profile: true
+---
+
+{% include base_path %}
+{% capture written_year %}'None'{% endcapture %}
+{% for note in site.notes_jp %}
+  {% capture year %}{{ note.date | date: '%Y' }}{% endcapture %}
+  {% if year != written_year %}
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    {% capture written_year %}{{ year }}{% endcapture %}
+  {% endif %}
+  {% include archive-single.html %}
+{% endfor %}

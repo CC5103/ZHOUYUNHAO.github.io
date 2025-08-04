@@ -1,19 +1,16 @@
 ---
-
 title: 'LinuxとWindowsのSMBマルチチャネル実装体験記'
 date: 2025-08-04
 permalink: /_notes_jp/2025/08/linux-windows-smb-multichannel/
 tags:
-
-* Linux
-* Windows
-* SMB
-* マルチチャネル
-* ネットワーク最適化
-
+  - Linux
+  - Windows
+  - SMB
+  - マルチチャネル
+  - ネットワーク最適化
 ---
 
-**Read this in other languages: [English](https://cc5103.github.io/ZHOUYUNHAO.github.io///_notes/2025/08/linux-windows-smb-multichannel/), [中文](https://cc5103.github.io/ZHOUYUNHAO.github.io///_notes_zh/2025/08/linux-windows-smb-multichannel/), [日本語](https://cc5103.github.io/ZHOUYUNHAO.github.io///_notes_jp/2025/08/linux-windows-smb-multichannel/).**
+**Read this in other languages: [English](https://cc5103.github.io/ZHOUYUNHAO.github.io/_notes/2025/08/linux-windows-smb-multichannel/), [中文](https://cc5103.github.io/ZHOUYUNHAO.github.io/_notes_zh/2025/08/linux-windows-smb-multichannel/), [日本語](https://cc5103.github.io/ZHOUYUNHAO.github.io/_notes_jp/2025/08/linux-windows-smb-multichannel/).**
 
 # はじめに
 

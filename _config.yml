@@ -209,6 +209,12 @@ collections:
   notes:
     output: true
     permalink: /:collection/:path/
+  notes_zh:
+    output: true
+    permalink: /:collection/:path/
+  notes_jp:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -216,6 +222,28 @@ defaults:
   - scope:
       path: ""
       type: notes
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _notes_zh
+  - scope:
+      path: ""
+      type: notes_zh
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _notes_jp
+  - scope:
+      path: ""
+      type: notes_jp
     values:
       layout: single
       author_profile: true

@@ -1,19 +1,16 @@
 ---
-
 title: 'Linux与Windows的SMB多通道实装心得'
 date: 2025-08-04
 permalink: /_notes_zh/2025/08/linux-windows-smb-multichannel/
 tags:
-
-* Linux
-* Windows
-* SMB
-* 多通道
-* 网络优化
-
+  - Linux
+  - Windows
+  - SMB
+  - 多通道
+  - 网络优化
 ---
 
-**Read this in other languages: [English](https://cc5103.github.io/ZHOUYUNHAO.github.io///_notes/2025/08/linux-windows-smb-multichannel/), [中文](https://cc5103.github.io/ZHOUYUNHAO.github.io///_notes_zh/2025/08/linux-windows-smb-multichannel/), [日本語](https://cc5103.github.io/ZHOUYUNHAO.github.io///_notes_jp/2025/08/linux-windows-smb-multichannel/).**
+**Read this in other languages: [English](https://cc5103.github.io/ZHOUYUNHAO.github.io/_notes/2025/08/linux-windows-smb-multichannel/), [中文](https://cc5103.github.io/ZHOUYUNHAO.github.io/_notes_zh/2025/08/linux-windows-smb-multichannel/), [日本語](https://cc5103.github.io/ZHOUYUNHAO.github.io/_notes_jp/2025/08/linux-windows-smb-multichannel/).**
 
 # 前述
 

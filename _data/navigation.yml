@@ -23,3 +23,9 @@ main:
 
   - title: "Notes"
     url: /notes/
+
+  - title: "笔记 (中文)"
+    url: /notes_zh/
+
+  - title: "ノート (日本語)"
+    url: /notes_jp/
