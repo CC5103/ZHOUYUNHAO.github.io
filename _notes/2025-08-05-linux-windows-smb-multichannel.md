@@ -157,7 +157,7 @@ There are three common topologies for SMB Multichannel:
 | **EX.2** | Each NIC uses a different subnet; client connects directly to one |
 | **EX.3** | NICs connect to different switches but same subnet                |
 
-![Network Topology Diagram](/images/Network-topology-diagram.png)
+![Network Topology Diagram]({{ site.baseurl }}/images/Network-topology-diagram.png)
 
 ### Windows Configuration and Issues
 
